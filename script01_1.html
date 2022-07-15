@@ -7,27 +7,40 @@
 <body>
 <p>sample</p>
 <script>
-/* 
-데이터 정리 여러 방방법
-1. 변수
-2. 데이터 그룹
-3. 데이터 이름별 
-*/
-let main = "flower";
-console.log(main);
+// /* 
+// 데이터 정리 여러 방방법
+// 1. 변수
+// 2. 데이터 그룹
+// 3. 데이터 이름별 
+// */
+// let main = "flower";
+// console.log(main);
 
-// 배열
-let num = [1,2,3,4,5];
-console.log(num[2]);
+// // 배열
+// let num = [1,2,3,4,5];
+// console.log(num[2]);
 
-// 체계 이름 -> 데이터
-let myCat = {
-    name : "콩이", 
-    color: "black",
-    gender: "man",
-    age : 9
+// // 체계 이름 -> 데이터
+// let myCat = {
+//     name : "콩이", 
+//     color: "black",
+//     gender: "man",
+//     age : 9
+// }
+// console.log(myCat.color);
+
+let sum = 0;
+for(let i = 1; i <= 100; i++){
+  sum += i;
 }
-console.log(myCat.color);
+console.log(sum)
+
+let i = 0;
+while(i <= 100){
+  if(i % 2 !== 0){
+    console.log(i)
+  }
+}
 </script>
 
 
